@@ -9,7 +9,7 @@ const Card = ({ product }: { product: any }) => {
           <div className='buttons'>
             <button className='left' onClick={() => {x--}}>&lt;</button>
             <button className='right' onClick={() => {x++}}>&gt;</button>
-            <button className='center'>Add to Cart</button>
+            <button className='center'><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRh95lM4BKnuCM2vEn2xXXFNAT4D87MS8sNdA&usqp=CAU" alt="addToCart" style={{width: '10px', height: '10px'}}/></button>
             
           </div>
         </div>
